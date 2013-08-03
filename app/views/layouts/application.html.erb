@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Omrails</title>
+  <title>Textbook Valet</title>
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
-<%= stylesheet_link_tag    "defaults", media: "all", "data-turbolinks-track" => true %>
+	<%= stylesheet_link_tag    "defaults", media: "all", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
 
-<%= yield %>
+	<%= render 'layouts/header' %> 
+  <div class="container">
+	<%= yield %>
+	<%= render 'layouts/footer' %>
+  </div>
 
 </body>
 </html>
