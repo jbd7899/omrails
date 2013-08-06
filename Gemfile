@@ -13,6 +13,9 @@ group :development, :test do
 	gem 'sqlite3'
 end
 
+gem 'rails_12factor', group: :production
+
+
 gem 'bootstrap-sass', '~> 2.3.2.1'
 
 # Use SCSS for stylesheets
