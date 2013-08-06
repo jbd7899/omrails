@@ -13,9 +13,6 @@ group :development, :test do
 	gem 'sqlite3'
 end
 
-gem 'rails_12factor', group: :production
-
-
 gem 'bootstrap-sass', '~> 2.3.2.1'
 
 # Use SCSS for stylesheets
@@ -43,6 +40,8 @@ group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
 end
+
+gem 'rails_12factor', group: :production
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
